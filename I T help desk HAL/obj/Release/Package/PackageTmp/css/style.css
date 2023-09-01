@@ -1,0 +1,19 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ce504f;
+    }
+
+#footer1 {
+    background: #3c96c4;
+}
+
+#footer2 {
+    background: #028ad0;
+}
+#background2 {
+    background-image: url('../images/loginbck.jpg');
+}

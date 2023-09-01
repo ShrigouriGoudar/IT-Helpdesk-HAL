@@ -1,0 +1,47 @@
+﻿.gridview-container {
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-x: auto;
+    color: black;
+}
+
+.container-box {
+    background-color: #0000008a;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+    color: white;
+}
+/* Background Styles */
+
+#body {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,4.0)), url('../images/bg1.jpg');
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #00000017;
+}
+
+    .navbar:hover {
+        background-color: #1d2a468c;
+    }
+/* Style for the navigation links */
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+    /* Style for the navigation links on hover */
+    .navbar-nav .nav-item .nav-link:hover {
+        color: black;
+        text-shadow: inherit;
+    }
+
+.welcome1 {
+    color: white;
+}

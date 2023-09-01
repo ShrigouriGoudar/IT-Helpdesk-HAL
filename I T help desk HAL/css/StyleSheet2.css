@@ -1,0 +1,37 @@
+﻿.table {
+    width: 100%;
+}
+
+    .table th,
+    .table td {
+        padding: 8px;
+        text-align: left;
+    }
+
+ 
+
+    .table th,
+    .table td {
+        flex: 1 1 auto;
+        min-width: 10px; /* Set a minimum width for columns */
+    }
+
+/* Adjust styles as needed for different screen sizes */
+@media screen and (max-width: 767px) {
+    .table th,
+    .table td {
+        flex-basis: 100%; /* Make columns stack vertically on small screens */
+        min-width: auto; /* Reset minimum width for small screens */
+    }
+}
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

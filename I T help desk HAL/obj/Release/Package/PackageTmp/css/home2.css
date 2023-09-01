@@ -1,0 +1,54 @@
+﻿#body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,7.0)), url('../images/home3.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 76%;
+    left: 32%;
+    transform: translate(-25%, -12%);
+    font-size: 82px;
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1050px , 0;
+    animation: backcolor 8s linear infinite alternate;
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.navbar {
+    background-color: #00000017;
+}
+    .navbar:hover {
+        background-color: #1d2a468c;
+    }
+/* Style for the navigation links */
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+    /* Style for the navigation links on hover */
+    .navbar-nav .nav-item .nav-link:hover {
+        color: black;
+        text-shadow:inherit;
+    }
+   
